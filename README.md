@@ -31,17 +31,10 @@ Install python dependencies
 pipenv install
 ```
 
-Populate database
-
-```shell
-python populate.py
-```
-
 Start application
 
 ```shell
 uvicorn main:app --port 8080
 ```
-
 
 https://www.youtube.com/watch?v=1CZZAhwqyco
